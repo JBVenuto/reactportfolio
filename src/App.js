@@ -20,6 +20,26 @@ class App extends Component {
     return (
       <div className="all">
         <Nav />
+        <div id="skills">
+          <Skill skill="HTML" />
+          <Skill skill="CSS" />
+          <Skill skill="Sass" />
+          <Skill skill="BootStrap" />
+          <Skill skill="JavaScrip" />
+          <Skill skill="jQuery" />
+          <Skill skill="Node.js" /> 
+          <Skill skill="Express" />
+          <Skill skill="React" /> 
+          <Skill skill="MySQL" />
+          <Skill skill="MongoDB" />
+          <Skill skill="GIT" />
+        </div>
+        <div id="portfolio">
+
+        </div>
+        <div id="about">
+
+        </div>
       </div>
     );
   }
