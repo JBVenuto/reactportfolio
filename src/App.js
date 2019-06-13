@@ -1,48 +1,24 @@
-import React, { Component } from 'react';
-// import './App.css';
-// Imported components
-import About from './components/About';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
-import PortfoDesc from './components/PortfoDesc';
-import PortfoScreen from './components/PortfoScreen';
-import Skill from './components/Skill';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+//Pages to use with the router
+import Main from './pages/Main';
+import LetsEat from './pages/LetsEat';
+import ArtGenerator from './pages/ArtGenerator';
+import Lights from './pages/Lights';
+import Memory from './pages/Memory';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {}
-  }
-
-  // Render the components and JSX
-  render() {
-    return (
-      <div className="all">
-        <Nav />
-        <div id="skills">
-          <Skill skill="HTML" />
-          <Skill skill="CSS" />
-          <Skill skill="Sass" />
-          <Skill skill="BootStrap" />
-          <Skill skill="JavaScrip" />
-          <Skill skill="jQuery" />
-          <Skill skill="Node.js" /> 
-          <Skill skill="Express" />
-          <Skill skill="React" /> 
-          <Skill skill="MySQL" />
-          <Skill skill="MongoDB" />
-          <Skill skill="GIT" />
-        </div>
-        <div id="portfolio">
-
-        </div>
-        <div id="about">
-
-        </div>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <div>
+      <Switch>
+        <Route exact path="/" component={Main} />
+        <Route exact path="/letseat" component={LetsEat} />
+        <Route exact path="/lights" component={Lights} />
+        <Route exact path="/memory" component={Memory} />
+        <Route exact path="/artgenerator" component={ArtGenerator} />
+      </Switch>
+    </div>
+  </Router>
+)
 
 export default App;

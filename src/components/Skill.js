@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Nav = (props) => (
-    <span>{props.skill}</span>
+    <span className="cell">{props.skill}</span>
 );
 
 export default Nav;
