@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
 // Imported components
 import About from './components/About';
 import Header from './components/Header';
@@ -14,11 +14,15 @@ class App extends Component {
     super(props);
     this.state = {}
   }
-  return (
-    <div className="all">
-      
-    </div>
-  );
+
+  // Render the components and JSX
+  render() {
+    return (
+      <div className="all">
+        <Nav />
+      </div>
+    );
+  }
 }
 
 export default App;
