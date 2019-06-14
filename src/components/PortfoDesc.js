@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PortfoDesc = (props) => (
-    <div className="cell">
+    <div className="col-lg-6">
         {props.title}
         <br></br>
         {props.description}

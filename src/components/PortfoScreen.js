@@ -1,8 +1,9 @@
 import React from 'react';
 
 const PortfoScreen = (props) => (
-    <div className="cell">
+    <div className="col-lg-6">
         <img
+            className="screenshot"
             src={props.src}
             alt={props.alt}
         ></img>

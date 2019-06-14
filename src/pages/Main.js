@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './App.css';
+import './main.css';
 // Imported components
 import About from '../components/About';
 import Header from '../components/Header';
@@ -25,7 +25,9 @@ class App extends Component {
       <div className="all">
         <Nav />
         {/* Header will go here */}
-        <div className="grid" id="skills">
+
+        {/*  ------Skills section------ */}
+        <div className="container" id="skills">
           <Skill skill="HTML" />
           <Skill skill="CSS" />
           <Skill skill="Sass" />
@@ -39,8 +41,10 @@ class App extends Component {
           <Skill skill="MongoDB" />
           <Skill skill="GIT" />
         </div>
-        <div className="grid" id="portfolio">
-          <a href="/lights">
+
+        {/* ------Portfolio section------ */}
+        <div className="gridPort" id="portfolio">
+          <a href="/lights" className="row">
             <PortfoScreen
                 src={northernlights}
                 alt="Screenshot of Find Your Lights"
@@ -50,27 +54,33 @@ class App extends Component {
                 description="Application for the user to find when the Northern Lights will be visible"
             />
           </a>
-          <a href="/letseat">
+          <a href="/letseat" className="row">
             <PortfoDesc 
+                className="portDesc2"
                 title="Let's Eat"
                 description="User generated list to keep track of restaurants to try and the ones worth returning to"
             />
             <PortfoScreen
+                className="portScreen2"
                 src={restaurants}
                 alt="Screenshot of Lets Eat"
             />
           </a>
-          <a href="/memory">
+          <a href="/memory" className="row">
             <PortfoScreen
+                className="portScreen1"
                 src={arthistory}
                 alt="Screenshot of art memory game"
             />
             <PortfoDesc 
+                className="portDesc1"
                 title="Art History Memory"
                 description="Memory game using pieces of art from various time frames"
             />
           </a>
         </div>
+
+        {/* ------About me section------ */}
         <div id="about">
 
         </div>
