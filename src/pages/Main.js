@@ -23,27 +23,31 @@ class App extends Component {
   render() {
     return (
       <div className="all">
+        <div className="wide-nav">
         <Nav />
+        </div>
         {/* Header will go here */}
 
         {/*  ------Skills section------ */}
         <div className="container" id="skills">
-          <Skill skill="HTML" />
-          <Skill skill="CSS" />
-          <Skill skill="Sass" />
-          <Skill skill="BootStrap" />
-          <Skill skill="JavaScrip" />
-          <Skill skill="jQuery" />
-          <Skill skill="Node.js" /> 
-          <Skill skill="Express" />
-          <Skill skill="React" /> 
-          <Skill skill="MySQL" />
-          <Skill skill="MongoDB" />
-          <Skill skill="GIT" />
+          <div className="row">
+            <Skill skill="HTML" />
+            <Skill skill="CSS" />
+            <Skill skill="Sass" />
+            <Skill skill="BootStrap" />
+            <Skill skill="JavaScrip" />
+            <Skill skill="jQuery" />
+            <Skill skill="Node.js" /> 
+            <Skill skill="Express" />
+            <Skill skill="React" /> 
+            <Skill skill="MySQL" />
+            <Skill skill="MongoDB" />
+            <Skill skill="GIT" />
+          </div>
         </div>
 
         {/* ------Portfolio section------ */}
-        <div className="gridPort" id="portfolio">
+        <div className="container" id="portfolio">
           <a href="/lights" className="row">
             <PortfoScreen
                 src={northernlights}

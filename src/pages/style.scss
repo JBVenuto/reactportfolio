@@ -1,6 +1,51 @@
 $orange: #FFA500;
 
-.screenshot {
-    width: 100%;
-    height: auto;
+// 576px break point
+body{
+    background-image: url(../images/back_pattern.png);
+}
+
+.wide-nav {
+    background-color: white;
+    
+    .nav {
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        a {
+            margin: 10px;
+            padding: 5px;
+        }
+    }
+}
+
+
+.skill {
+    background-color: $orange;
+    color: white;
+    margin: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.skill:hover {
+    color: black;
+}
+
+.port-screen {
+    background-color: white;
+    margin-top: 15px;
+    .screenshot {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.port-desc {
+    margin-top: 15px;
+    color: $orange;
+    text-align: center;
+    background-color: white;
+    // padding-top: 80px;
 }
