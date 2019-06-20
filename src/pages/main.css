@@ -16,11 +16,17 @@ body {
   padding: 5px;
 }
 
+.skills {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
 .skill {
   background-color: #FFA500;
   color: white;
-  margin: 10px;
+  margin: 3px;
   border-radius: 3px;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -42,6 +48,35 @@ body {
   color: #FFA500;
   text-align: center;
   background-color: white;
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 992px) {
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  .port-desc {
+    margin-top: 15px;
+    color: #FFA500;
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .port-desc {
+    color: #FFA500;
+    text-align: center;
+    background-color: white;
+    padding-top: 25px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

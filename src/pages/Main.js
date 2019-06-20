@@ -30,7 +30,7 @@ class App extends Component {
 
         {/*  ------Skills section------ */}
         <div className="container" id="skills">
-          <div className="row">
+          <div className="skills">
             <Skill skill="HTML" />
             <Skill skill="CSS" />
             <Skill skill="Sass" />

@@ -21,12 +21,17 @@ body{
     }
 }
 
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
 
 .skill {
     background-color: $orange;
     color: white;
-    margin: 10px;
+    margin: 3px;
     border-radius: 3px;
+    text-align: center;
     font-weight: bold;
 }
 .skill:hover {
@@ -47,5 +52,35 @@ body{
     color: $orange;
     text-align: center;
     background-color: white;
-    // padding-top: 80px;
+    padding-top: 80px;
+}
+
+// medium screens
+@media only screen and (max-width: 992px) {
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .port-desc {
+        margin-top: 15px;
+        color: $orange;
+        text-align: center;
+        background-color: white;
+        padding-top: 50px;
+    }
+}
+
+// small screens
+@media only screen and (max-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .port-desc {
+        // margin-top: 15px;
+        color: $orange;
+        text-align: center;
+        background-color: white;
+        padding-top: 25px;
+    }
 }
