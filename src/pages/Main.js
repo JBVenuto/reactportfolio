@@ -47,41 +47,43 @@ class App extends Component {
         </div>
 
         {/* ------Portfolio section------ */}
-        <div className="container" id="portfolio">
-          <a href="/lights" className="row">
-            <PortfoScreen
-                src={northernlights}
-                alt="Screenshot of Find Your Lights"
-            />
-            <PortfoDesc 
-                title="Find the Northern Lights"
-                description="Application for the user to find when the Northern Lights will be visible"
-            />
-          </a>
-          <a href="/letseat" className="row">
-            <PortfoDesc 
-                className="portDesc2"
-                title="Let's Eat"
-                description="User generated list to keep track of restaurants to try and the ones worth returning to"
-            />
-            <PortfoScreen
-                className="portScreen2"
-                src={restaurants}
-                alt="Screenshot of Lets Eat"
-            />
-          </a>
-          <a href="/memory" className="row">
-            <PortfoScreen
-                className="portScreen1"
-                src={arthistory}
-                alt="Screenshot of art memory game"
-            />
-            <PortfoDesc 
-                className="portDesc1"
-                title="Art History Memory"
-                description="Memory game using pieces of art from various time frames"
-            />
-          </a>
+        <div className="container">
+          <div className="portfolio">
+            <a href="/lights" className="port-row">
+              <PortfoScreen
+                  src={northernlights}
+                  alt="Screenshot of Find Your Lights"
+              />
+              <PortfoDesc 
+                  title="Find the Northern Lights"
+                  description="Application for the user to find when the Northern Lights will be visible"
+              />
+            </a>
+            <a href="/letseat" className="port-row">
+              <PortfoDesc 
+                  className="portDesc2"
+                  title="Let's Eat"
+                  description="User generated list to keep track of restaurants to try and the ones worth returning to"
+              />
+              <PortfoScreen
+                  className="portScreen2"
+                  src={restaurants}
+                  alt="Screenshot of Lets Eat"
+              />
+            </a>
+            <a href="/memory" className="port-row">
+              <PortfoScreen
+                  className="portScreen1"
+                  src={arthistory}
+                  alt="Screenshot of art memory game"
+              />
+              <PortfoDesc 
+                  className="portDesc1"
+                  title="Art History Memory"
+                  description="Memory game using pieces of art from various time frames"
+              />
+            </a>
+          </div>
         </div>
 
         {/* ------About me section------ */}

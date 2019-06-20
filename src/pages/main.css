@@ -19,12 +19,13 @@ body {
 .skills {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
 }
 
 .skill {
   background-color: #FFA500;
   color: white;
-  margin: 3px;
   border-radius: 3px;
   text-align: center;
   font-weight: bold;
@@ -34,9 +35,15 @@ body {
   color: black;
 }
 
+.port-row {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 15px;
+}
+
 .port-screen {
-  background-color: white;
-  margin-top: 15px;
+  width: 100%;
 }
 .port-screen .screenshot {
   width: 100%;
@@ -44,11 +51,11 @@ body {
 }
 
 .port-desc {
-  margin-top: 15px;
   color: #FFA500;
   text-align: center;
   background-color: white;
   padding-top: 80px;
+  height: 100%;
 }
 
 @media only screen and (max-width: 992px) {

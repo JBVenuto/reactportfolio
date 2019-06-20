@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PortfoDesc = (props) => (
-    <div className="col-sm-6 port-desc">
+    <div className="port-desc">
         {/* <div className="row"></div> */}
         <span className="testDiv">
             {props.title}
