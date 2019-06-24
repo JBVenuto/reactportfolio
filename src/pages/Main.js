@@ -4,7 +4,6 @@ import './main.css';
 import About from '../components/About';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
-import Portfolio from '../components/Portfolio';
 import PortfoDesc from '../components/PortfoDesc';
 import PortfoScreen from '../components/PortfoScreen';
 import Skill from '../components/Skill';
@@ -12,7 +11,8 @@ import Skill from '../components/Skill';
 import arthistory from '../images/arthistory.jpg';
 import northernlights from '../images/northernlights.jpg';
 import restaurants from '../images/restaurants.jpg';
-import v from '../images/v1.jpg';
+import v from '../images/v2.jpg';
+import me from '../images/preskiserun.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class App extends Component {
         <div className="wide-nav">
         <Nav />
         </div>
-        {/* Header will go here */}
+        {/*  ------Header section------ */}
         <Header
           src={v}
         />
@@ -91,8 +91,8 @@ class App extends Component {
         </div>
 
         {/* ------About me section------ */}
-        <div id="about">
-
+        <div className="container" id="about">
+          <About src={me} />
         </div>
       </div>
     );
