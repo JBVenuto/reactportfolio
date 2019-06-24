@@ -12,6 +12,7 @@ import Skill from '../components/Skill';
 import arthistory from '../images/arthistory.jpg';
 import northernlights from '../images/northernlights.jpg';
 import restaurants from '../images/restaurants.jpg';
+import v from '../images/v1.jpg';
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +28,9 @@ class App extends Component {
         <Nav />
         </div>
         {/* Header will go here */}
+        <Header
+          src={v}
+        />
 
         {/*  ------Skills section------ */}
         <div className="container" id="skills">
