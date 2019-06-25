@@ -88,6 +88,13 @@ body {
   height: auto;
 }
 
+.nav-slide {
+  background-color: #FFA500;
+}
+.nav-slide a {
+  color: white;
+}
+
 @media only screen and (max-width: 992px) {
   .skills {
     display: grid;

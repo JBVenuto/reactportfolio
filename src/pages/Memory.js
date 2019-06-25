@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './main.css';
+
 import NavSlide from '../components/NavSlide';
 
 class Memory extends Component {
