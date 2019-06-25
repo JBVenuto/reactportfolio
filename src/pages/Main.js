@@ -11,8 +11,8 @@ import Skill from '../components/Skill';
 import arthistory from '../images/arthistory.jpg';
 import northernlights from '../images/northernlights.jpg';
 import restaurants from '../images/restaurants.jpg';
-import v from '../images/v2.jpg';
-import me from '../images/preskiserun.jpg'
+import v from '../images/v1.jpg';
+import me from '../images/headshotpresq.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -52,7 +52,7 @@ class App extends Component {
 
         {/* ------Portfolio section------ */}
         <div className="container">
-          <div className="portfolio">
+          <div className="portfolio" id="portfolio">
             <a href="/lights" className="port-row">
               <PortfoScreen
                   src={northernlights}

@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
+import NavSlide from '../components/NavSlide';
 
-const Lights = () => (
-    <div>
-        Find your lights is an app to help the user find out when and if they Northern lights will be visible
-    </div>
-);
+class Lights extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+          'display': 'desktop'
+      }
+    }
+
+    render () {
+        return (
+            <div>
+                <NavSlide 
+                    hrefBack='/artgenerator'
+                    nameBack='Modern Art Generator'
+                    hrefNext='/letseat'
+                    nameNext='Lets Eat'
+                />
+            </div>
+        )
+    }
+}
 
 export default Lights;

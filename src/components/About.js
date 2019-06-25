@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = (props) => (
-    <div className="row">
+    <div className="row all-about">
         <div className="col-sm-6 about">
             <p>
                 I’m a web developer with a background in education. My time in education has given me professional knowledge of the learning process and the skills to adapt this knowledge for efficient self-learning, as well as time management, organization, and leadership skills.

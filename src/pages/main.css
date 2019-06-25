@@ -4,10 +4,13 @@ body {
 
 .wide-nav {
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .wide-nav .nav {
   border-bottom-style: solid;
-  margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -19,7 +22,7 @@ body {
 .header {
   background-color: white;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 50px;
   margin-bottom: 15px;
 }
 .header .name-title {
@@ -72,11 +75,15 @@ body {
   height: 100%;
 }
 
-.about {
-  background-color: white;
+.all-about {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-
-.headshot {
+.all-about .about {
+  background-color: white;
+  padding-top: 20px;
+}
+.all-about .headshot {
   width: 100%;
   height: auto;
 }
