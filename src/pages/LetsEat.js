@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './main.css';
 
 import NavSlide from '../components/NavSlide';
+import SlideName from '../components/SlideName';
+import SlideScreenshot from '../components/SlideScreenshot';
+import SlideLinks from '../components/SlideLinks';
+import screenshot from '../images/restaurants.jpg';
 
 class LetsEat extends Component {
     constructor(props) {
@@ -20,6 +24,23 @@ class LetsEat extends Component {
                     hrefNext='/memory'
                     nameNext='Memory Game'
                 />
+                <div className="container">
+                    <SlideName name='Lets Eat' />
+                    <SlideScreenshot 
+                        src={screenshot}
+                        alt='Lets Eat Screenshot'
+                    />
+                    <SlideLinks
+                        liveHref='https://jbvenuto.github.io/restaurantfrontend/'
+                        gitHubHref='https://github.com/JBVenuto/restaurants'
+                    />
+                    <div className="slide-description">
+                        <h2>About:</h2>
+                        <p></p>
+                        <h2>Tech Used:</h2>
+                        <p></p>
+                    </div>
+                </div>
             </div>
         )
     }

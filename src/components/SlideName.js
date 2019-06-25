@@ -1,9 +1,7 @@
 import React from 'react';
 
-const SlideName = () => (
-    <div>
-        
-    </div>
+const SlideName = (props) => (
+    <h1>{props.name}</h1>
 );
 
 export default SlideName;

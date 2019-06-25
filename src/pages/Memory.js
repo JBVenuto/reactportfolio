@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './main.css';
 
 import NavSlide from '../components/NavSlide';
+import SlideName from '../components/SlideName';
+import SlideScreenshot from '../components/SlideScreenshot';
+import SlideLinks from '../components/SlideLinks';
+import screenshot from '../images/arthistory.jpg';
 
 class Memory extends Component {
     constructor(props) {
@@ -20,6 +24,23 @@ class Memory extends Component {
                     hrefNext='/artgenerator'
                     nameNext='Modern Art Generator'
                 />
+                <div className="container">
+                    <SlideName name='' />
+                    <SlideScreenshot 
+                        src={screenshot}
+                        alt='Art History Memory Game'
+                    />
+                    <SlideLinks
+                        liveHref='https://jbvenuto.github.io/arthistorygame/'
+                        gitHubHref='https://github.com/JBVenuto/arthistorygame'
+                    />
+                    <div className="slide-description">
+                        <h2>About:</h2>
+                        <p></p>
+                        <h2>Tech Used:</h2>
+                        <p></p>
+                    </div>
+                </div>
             </div>
         )
     }

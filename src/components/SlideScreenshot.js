@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SlideScreenshot = () => (
+const SlideScreenshot = (props) => (
     <div>
-        
+        <img className="slide-screenshot" src={props.src} alt={props.alt}></img>
     </div>
 );
 

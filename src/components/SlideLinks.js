@@ -1,8 +1,9 @@
 import React from 'react';
 
-const SlideLinks = () => (
+const SlideLinks = (props) => (
     <div>
-        
+        <a href={props.liveHref}>Live Site</a>
+        <a href={props.gitHubHref}>GitHub Repository</a>
     </div>
 );
 

@@ -95,6 +95,11 @@ body {
   color: white;
 }
 
+.slide-screenshot {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 992px) {
   .skills {
     display: grid;
