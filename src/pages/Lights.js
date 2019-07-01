@@ -11,7 +11,7 @@ class Lights extends Component {
     constructor(props) {
       super(props);
       this.state = {
-          'display': 'desktop'
+        'desktop': true
       }
     }
 
@@ -36,6 +36,8 @@ class Lights extends Component {
                     />
                     <div className="slide-description">
                         <h2>About:</h2>
+                        <p></p>
+                        <h2>Development:</h2>
                         <p></p>
                         <h2>Tech Used:</h2>
                         <p></p>

@@ -11,7 +11,7 @@ class ArtGenerator extends Component {
     constructor(props) {
       super(props);
       this.state = {
-          'display': 'desktop'
+          'desktop': true
       }
     }
 
@@ -36,9 +36,12 @@ class ArtGenerator extends Component {
                     />
                     <div className="slide-description">
                         <h2>About:</h2>
-                        <p>Making a modern art gererator is something I've been wanting to do since visiting the Los Angeles County Museum of Art.</p>
+                        <p>I’ve been an art lover for as long as I can remember. After visiting the Los Angeles County Museum of Art I was inspired to give making art a try myself, but having zero painting and drawing skills I knew I would have to take a different approach.</p>
+                        <p>I took inspiration from the likes of Piet Mondrian, Wassily Kandinsky, and Mark Rothko. I found their ability to create beautify works of art using simple shapes and carefully selected colors to be a good starting point for my attempt at creating a web application to make art.</p>
+                        <h2>Development:</h2>
+                        <p>While building this application I learned that I would need to use CSS Grid to get the results I was hoping for. My previous layout experience had been using Bootstrap’s grid system, or agonizingly trying to position elements by giving them margins or floating them to one side of the page or the other. I learned that CSS Grid takes more time to set up than Bootstrap’s grid but is well worth the time for it provides developers with more options for how they want to set up their application. </p>
                         <h2>Tech Used:</h2>
-                        <p>This application uses CSS Grid</p>
+                        <p>This application uses CSS Grid and Vanilla JavaScript</p>
                     </div>
                 </div>
             </div>

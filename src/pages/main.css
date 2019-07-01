@@ -15,8 +15,10 @@ body {
   padding-bottom: 5px;
 }
 .wide-nav .nav a {
-  margin: 10px;
+  margin: 10px 5px;
   padding: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #FFA500;
 }
 
 .header {
@@ -35,6 +37,8 @@ body {
 
 .skills {
   display: grid;
+  width: 100%;
+  background-color: black;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
   grid-column-gap: 3px;
   grid-row-gap: 3px;
@@ -68,11 +72,15 @@ body {
 }
 
 .port-desc {
+  font-family: "Roboto", sans-serif;
   color: #FFA500;
   text-align: center;
   background-color: white;
   padding-top: 80px;
   height: 100%;
+}
+.port-desc .port-title {
+  text-decoration: underline;
 }
 
 .all-about {
@@ -98,6 +106,10 @@ body {
 .slide-screenshot {
   width: 100%;
   height: auto;
+}
+
+.slide-description {
+  background-color: white;
 }
 
 @media only screen and (max-width: 992px) {

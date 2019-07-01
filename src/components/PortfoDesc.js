@@ -2,13 +2,10 @@ import React from 'react';
 
 const PortfoDesc = (props) => (
     <div className="port-desc">
-        {/* <div className="row"></div> */}
-        <span className="testDiv">
-            {props.title}
-            <br></br>
+        <span>
+            <h5 className="port-title">{props.title}</h5>
             {props.description}
         </span>
-        {/* <div className="row"></div> */}
     </div>
 );
 

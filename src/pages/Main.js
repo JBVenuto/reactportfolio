@@ -35,7 +35,7 @@ class App extends Component {
         {/*  ------Skills section------ */}
         <div className="container" id="skills">
           <div className="skills">
-            <Skill skill="HTML" />
+            <Skill skill="HTML" id="first-skill" />
             <Skill skill="CSS" />
             <Skill skill="Sass" />
             <Skill skill="BootStrap" />
@@ -46,7 +46,7 @@ class App extends Component {
             <Skill skill="React" /> 
             <Skill skill="MySQL" />
             <Skill skill="MongoDB" />
-            <Skill skill="GIT" />
+            <Skill skill="GIT" id="last-skill" />
           </div>
         </div>
 
