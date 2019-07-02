@@ -1,8 +1,18 @@
 import React from 'react';
 
 const About = (props) => (
-    <div className="row all-about">
-        <div className="col-sm-6 about">
+    <div className="all-about">
+        {/* Picture */}
+        <div className="about-headshot">
+            <img
+                src={props.src}
+                alt="Joseph Venuto"
+                className="headshot"
+            ></img>
+        </div>
+        {/* About Me Section */}
+        <div className="about-desc">
+            <h3>About Me:</h3><hr></hr>
             <p>
                 I’m a web developer with a background in education. My time in education has given me professional knowledge of the learning process and the skills to adapt this knowledge for efficient self-learning, as well as time management, organization, and leadership skills.
             </p>
@@ -12,13 +22,6 @@ const About = (props) => (
             <p>
                 While earning a Web Development Certificate from the University of Central Florida I was formally taught the MERN stack. Along the way I acquired skills in jQuery, Firebase, MySQL, Handle Bars, and countless Node.js packages.
             </p>
-        </div>
-        <div className="col-sm-6">
-            <img
-                src={props.src}
-                alt="Joseph Venuto"
-                className="headshot"
-            ></img>
         </div>
     </div>
 );

@@ -28,12 +28,12 @@ class App extends Component {
         <Nav />
         </div>
         {/*  ------Header section------ */}
-        <Header
-          src={v}
-        />
+        <div className="container">
+          <Header
+            src={v}
+          />
 
-        {/*  ------Skills section------ */}
-        <div className="container" id="skills">
+          {/*  ------Skills section------ */}
           <div className="skills">
             <Skill skill="HTML" id="first-skill" />
             <Skill skill="CSS" />
@@ -48,10 +48,8 @@ class App extends Component {
             <Skill skill="MongoDB" />
             <Skill skill="GIT" id="last-skill" />
           </div>
-        </div>
 
-        {/* ------Portfolio section------ */}
-        <div className="container">
+          {/* ------Portfolio section------ */}
           <div className="portfolio" id="portfolio">
             <a href="/lights" className="port-row">
               <PortfoScreen
@@ -88,11 +86,10 @@ class App extends Component {
               />
             </a>
           </div>
-        </div>
 
-        {/* ------About me section------ */}
-        <div className="container" id="about">
+          {/* ------About me section------ */}
           <About src={me} />
+
         </div>
       </div>
     );

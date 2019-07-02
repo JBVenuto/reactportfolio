@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = (props) => (
-    <div className="container">
+    // <div className="container">
         <div className="row header">
             <div className="col-sm-1"></div>
             <div className="col-sm-4 name-title">
@@ -18,7 +18,7 @@ const Header = (props) => (
                 ></img>
             </div>
         </div>
-    </div>
+    // </div>
 );
 
 export default Header;

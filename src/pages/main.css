@@ -38,7 +38,6 @@ body {
 .skills {
   display: grid;
   width: 100%;
-  background-color: black;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
   grid-column-gap: 3px;
   grid-row-gap: 3px;
@@ -47,6 +46,7 @@ body {
 .skill {
   background-color: #FFA500;
   color: white;
+  margin: 3px;
   border-radius: 3px;
   text-align: center;
   font-weight: bold;
@@ -59,8 +59,8 @@ body {
 .port-row {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-column-gap: 15px;
+  grid-template-columns: 49.5% 49.5%;
+  grid-column-gap: 1em;
 }
 
 .port-screen {
@@ -84,12 +84,23 @@ body {
 }
 
 .all-about {
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 49.5% 49.5%;
+  grid-column-gap: 1em;
 }
-.all-about .about {
+.all-about .about-desc {
   background-color: white;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.all-about .about-desc h3 {
+  text-align: center;
+}
+.all-about .about-desc p {
+  font-size: 15px;
+  padding: 8px;
 }
 .all-about .headshot {
   width: 100%;
