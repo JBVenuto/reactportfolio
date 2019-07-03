@@ -14,13 +14,13 @@ const Nav = () => (
             <a href="#about">About</a>
         </li>
         <li className="nav-item">
-            <a href="https://www.linkedin.com/in/joseph-venuto-0714a5162/" rel="noopener noreferrer" target="_blank">
-                <FaLinkedin className="nav-icon" />
+            <a href="https://github.com/JBVenuto" rel="noopener noreferrer" target="_blank">
+                <FaGithub className="nav-icon" />
             </a>
         </li>
         <li className="nav-item">
-            <a href="https://github.com/JBVenuto" rel="noopener noreferrer" target="_blank">
-                <FaGithub className="nav-icon" />
+            <a href="https://www.linkedin.com/in/joseph-venuto-0714a5162/" rel="noopener noreferrer" target="_blank">
+                <FaLinkedin className="nav-icon" />
             </a>
         </li>
     </div>

@@ -7,6 +7,7 @@ import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/restaurantdesk.gif';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class LetsEat extends Component {
     constructor(props) {
@@ -44,6 +45,8 @@ class LetsEat extends Component {
                         <p>The back-end for this application is written with Node.js and uses Express.js to create an API. The MySQL database is hosted on Heroku using the JawsDB plugin. The front-end is built with React.js</p>
                     </div>
                 </div>
+                <IoIosArrowBack className="arrow-back" />
+                <IoIosArrowForward className="arrow-forward" />
                 <SiteMap />
             </div>
         )

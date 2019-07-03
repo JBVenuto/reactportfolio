@@ -7,6 +7,7 @@ import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/lightsdesk.gif';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class Lights extends Component {
     constructor(props) {
@@ -45,6 +46,8 @@ class Lights extends Component {
                         <p>I wanted to use Vanilla JavaScript while making this application because I didn’t want to become overly deponent on libraries. By using Vanilla JavaScript I was able to greatly grow my DOM interaction skills, which were quite limited prior.</p>
                     </div>
                 </div>
+                <IoIosArrowBack className="arrow-back" />
+                <IoIosArrowForward className="arrow-forward" />
                 <SiteMap />
             </div>
         )

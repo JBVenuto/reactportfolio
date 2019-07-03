@@ -7,6 +7,7 @@ import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/artgendesk.gif';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class ArtGenerator extends Component {
     constructor(props) {
@@ -45,6 +46,8 @@ class ArtGenerator extends Component {
                         <p>This application uses CSS Grid and Vanilla JavaScript</p>
                     </div>
                 </div>
+                <IoIosArrowBack className="arrow-back" />
+                <IoIosArrowForward className="arrow-forward" />
                 <SiteMap />
             </div>
         )

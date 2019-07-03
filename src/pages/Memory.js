@@ -7,6 +7,7 @@ import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/memorydesk.gif';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class Memory extends Component {
     constructor(props) {
@@ -44,6 +45,8 @@ class Memory extends Component {
                         <p>Because this game was built as a learning experience it focuses on the React library which uses JavaScript, JSX, and HTML. I also used Bootstrap and CSS for stylizing. The pictures come from the Met’s collection of open access artworks.</p>
                     </div>
                 </div>
+                <IoIosArrowBack className="arrow-back" />
+                <IoIosArrowForward className="arrow-forward" />
                 <SiteMap />
             </div>
         )

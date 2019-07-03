@@ -3,6 +3,13 @@ $orange: #FFA500;
     font-family: 'Roboto', sans-serif;
     color: $orange;
 }
+@mixin arrow() {
+    font-size: 60px;
+    background: lightgray;
+    opacity: 0.25;
+    position: fixed;
+    top: 250px;
+}
 
 .nav-slide {
     background-color: $orange;
@@ -42,4 +49,28 @@ h1 {
     background-color: white;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.arrow-back {
+    @include arrow();
+}
+.arrow-forward {
+    @include arrow();
+    right: 0px;
+}
+.arrow-back:hover {
+    opacity: 0.6;
+}
+.arrow-forward:hover {
+    opacity: 0.6;
+}
+
+// small screens
+@media only screen and (max-width: 768px) {
+    .arrow-back {
+        font-size: 45px;
+    }
+    .arrow-forward {
+        font-size: 45px;
+    }
 }
