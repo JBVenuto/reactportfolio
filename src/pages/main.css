@@ -136,7 +136,7 @@ body {
   background-color: darkgray;
   width: 100%;
   padding-top: 8px;
-  border-top-style: solid;
+  border-top: 2px solid #FFA500;
 }
 .site-map ul {
   list-style: none;
