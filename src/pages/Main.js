@@ -6,13 +6,15 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import PortfoDesc from '../components/PortfoDesc';
 import PortfoScreen from '../components/PortfoScreen';
+import SiteMap from '../components/SiteMap';
 import Skill from '../components/Skill';
 // Imported images
-import arthistory from '../images/arthistory.jpg';
-import northernlights from '../images/northernlights.jpg';
-import restaurants from '../images/restaurants.jpg';
-import v from '../images/v1.jpg';
-import me from '../images/headshotpresq.jpg'
+import arthistory from '../images/mainpage/arthistory.jpg';
+import northernlights from '../images/mainpage/northernlights.jpg';
+import restaurants from '../images/mainpage/restaurants.jpg';
+import modernart from '../images/mainpage/modernart.jpg';
+import v from '../images/mainpage/v1.jpg';
+import me from '../images/mainpage/headshotpresq.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -34,6 +36,7 @@ class App extends Component {
           />
 
           {/*  ------Skills section------ */}
+          <span id="skills"></span>
           <div className="skills">
             <Skill skill="HTML" id="first-skill" />
             <Skill skill="CSS" />
@@ -50,14 +53,15 @@ class App extends Component {
           </div>
 
           {/* ------Portfolio section------ */}
-          <div className="portfolio" id="portfolio">
+          <span id="portfolio"></span>
+          <div className="portfolio" >
             <a href="/lights" className="port-row">
               <PortfoScreen
                   src={northernlights}
                   alt="Screenshot of Find Your Lights"
               />
               <PortfoDesc 
-                  title="Find the Northern Lights"
+                  title="Find Your Lights"
                   description="Application for the user to find when the Northern Lights will be visible"
               />
             </a>
@@ -81,16 +85,30 @@ class App extends Component {
               />
               <PortfoDesc 
                   className="portDesc1"
-                  title="Art History Memory"
+                  title="Art History Memory Game"
                   description="Memory game using pieces of art from various time frames"
+              />
+            </a>
+            <a href="/artgenerator" className="port-row">
+              <PortfoDesc 
+                  className="portDesc2"
+                  title="Modern Art Generator"
+                  description="Each load will create a piece of modern art randomly generated with JavaScript"
+              />
+              <PortfoScreen
+                  className="portScreen2"
+                  src={modernart}
+                  alt="Screenshot of Modern Art Generator"
               />
             </a>
           </div>
 
           {/* ------About me section------ */}
+          <span id="about"></span>
           <About src={me} />
-
+          
         </div>
+        <SiteMap />
       </div>
     );
   }

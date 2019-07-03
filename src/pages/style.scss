@@ -3,9 +3,15 @@ $orange: #FFA500;
     font-family: 'Roboto', sans-serif;
     color: $orange;
 }
+@mixin anchor() {
+    display:block;
+    position:relative;
+    visibility: hidden;
+    top: -30px;
+}
 
 body{
-    background-image: url(../images/back_pattern.png);
+    background-image: url(../images/mainpage/back_pattern.png);
 }
 
 .wide-nav {
@@ -28,6 +34,9 @@ body{
         }
     }
 }
+.nav-icon {
+font-size: 20px;
+}
 
 .header {
     background-color: white;
@@ -44,6 +53,9 @@ body{
     }
 }
 
+#skills {
+    @include anchor();
+}
 .skills {
     display: grid;
     width: 100%;
@@ -58,12 +70,15 @@ body{
     margin: 3px;
     border-radius: 3px;
     text-align: center;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 .skill:hover {
     color: black;
 }
 
+#portfolio {
+    @include anchor();
+}
 .port-row {
     margin-top: 10px;
     display: grid;
@@ -91,6 +106,9 @@ body{
     }
 }
 
+#about {
+    @include anchor();
+}
 .all-about{
     margin-top: 30px;
     margin-bottom: 15px;
@@ -117,20 +135,17 @@ body{
     }
 }
 
-.nav-slide {
-    background-color: $orange;
-    a{
+.site-map {
+    background-color: darkgray;
+    width: 100%;
+    padding-top: 8px;
+    border-top-style: solid;
+    ul {
+        list-style: none;
+    }
+    a {
         color: white;
     }
-}
-
-.slide-screenshot {
-    width: 100%;
-    height: auto;
-}
-
-.slide-description {
-    background-color: white;
 }
 
 // medium screens

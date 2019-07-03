@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './main.css';
+import './slide.css';
 // Componenets 
 import NavSlide from '../components/NavSlide';
 import SlideName from '../components/SlideName';
 import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
-import screenshot from '../images/arthistory.jpg';
+import SiteMap from '../components/SiteMap';
+import screenshot from '../images/gifs/artgendesk.gif';
 
 class ArtGenerator extends Component {
     constructor(props) {
@@ -19,10 +20,10 @@ class ArtGenerator extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/lights'
-                    nameBack='Find Your Lights'
-                    hrefNext='/memory'
-                    nameNext='Memory Game'
+                    hrefBack='/memory'
+                    nameBack='Art History Memory Game'
+                    hrefNext='/lights'
+                    nameNext='Find Your Lights'
                 />
                 <div className="container">
                     <SlideName name='Modern Art Generator' />
@@ -44,6 +45,7 @@ class ArtGenerator extends Component {
                         <p>This application uses CSS Grid and Vanilla JavaScript</p>
                     </div>
                 </div>
+                <SiteMap />
             </div>
         )
     }

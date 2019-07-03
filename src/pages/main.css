@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/back_pattern.png);
+  background-image: url(../images/mainpage/back_pattern.png);
 }
 
 .wide-nav {
@@ -21,6 +21,10 @@ body {
   color: #FFA500;
 }
 
+.nav-icon {
+  font-size: 20px;
+}
+
 .header {
   background-color: white;
   text-align: center;
@@ -33,6 +37,13 @@ body {
 .header .logo-img {
   width: 25%;
   height: auto;
+}
+
+#skills {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -30px;
 }
 
 .skills {
@@ -49,11 +60,18 @@ body {
   margin: 3px;
   border-radius: 3px;
   text-align: center;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .skill:hover {
   color: black;
+}
+
+#portfolio {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -30px;
 }
 
 .port-row {
@@ -83,6 +101,13 @@ body {
   text-decoration: underline;
 }
 
+#about {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -30px;
+}
+
 .all-about {
   margin-top: 30px;
   margin-bottom: 15px;
@@ -107,20 +132,17 @@ body {
   height: auto;
 }
 
-.nav-slide {
-  background-color: #FFA500;
-}
-.nav-slide a {
-  color: white;
-}
-
-.slide-screenshot {
+.site-map {
+  background-color: darkgray;
   width: 100%;
-  height: auto;
+  padding-top: 8px;
+  border-top-style: solid;
 }
-
-.slide-description {
-  background-color: white;
+.site-map ul {
+  list-style: none;
+}
+.site-map a {
+  color: white;
 }
 
 @media only screen and (max-width: 992px) {

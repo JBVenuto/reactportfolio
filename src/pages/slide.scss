@@ -1,0 +1,45 @@
+$orange: #FFA500;
+@mixin font-main() {
+    font-family: 'Roboto', sans-serif;
+    color: $orange;
+}
+
+.nav-slide {
+    background-color: $orange;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    a{
+        color: white;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.slide-screenshot {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.app-links {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.slide-description {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
