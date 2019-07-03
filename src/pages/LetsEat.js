@@ -45,8 +45,12 @@ class LetsEat extends Component {
                         <p>The back-end for this application is written with Node.js and uses Express.js to create an API. The MySQL database is hosted on Heroku using the JawsDB plugin. The front-end is built with React.js</p>
                     </div>
                 </div>
-                <IoIosArrowBack className="arrow-back" />
-                <IoIosArrowForward className="arrow-forward" />
+                <a href="/lights">
+                    <IoIosArrowBack className="arrow-back" />
+                </a>
+                <a href="/memory">
+                    <IoIosArrowForward className="arrow-forward" />
+                </a>
                 <SiteMap />
             </div>
         )

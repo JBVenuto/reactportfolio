@@ -46,8 +46,12 @@ class Lights extends Component {
                         <p>I wanted to use Vanilla JavaScript while making this application because I didn’t want to become overly deponent on libraries. By using Vanilla JavaScript I was able to greatly grow my DOM interaction skills, which were quite limited prior.</p>
                     </div>
                 </div>
-                <IoIosArrowBack className="arrow-back" />
-                <IoIosArrowForward className="arrow-forward" />
+                <a href="/artgenerator">
+                    <IoIosArrowBack className="arrow-back" />
+                </a>
+                <a href="/letseat">
+                    <IoIosArrowForward className="arrow-forward" />
+                </a>
                 <SiteMap />
             </div>
         )

@@ -5,6 +5,7 @@ $orange: #FFA500;
 }
 @mixin arrow() {
     font-size: 60px;
+    color: black;
     background: lightgray;
     opacity: 0.25;
     position: fixed;
@@ -43,6 +44,11 @@ h1 {
     padding-bottom: 5px;
     text-align: center;
     text-decoration: underline;
+}
+
+.app-link {
+    margin: 10px;
+    color: black;
 }
 
 .slide-description {
