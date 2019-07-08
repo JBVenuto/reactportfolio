@@ -6,7 +6,7 @@ const NavSlide = (props) => (
             <a href={props.hrefBack}>{props.nameBack}</a>
         </li>
         <li className="nav-item">
-            <a href='/'>Main Page</a>
+            <a href='/reactportfolio'>Main Page</a>
         </li>
         <li className="nav-item">
             <a href={props.hrefNext}>{props.nameNext}</a>

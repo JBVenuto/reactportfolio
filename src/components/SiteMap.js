@@ -9,7 +9,7 @@ const SiteMap = (props) => (
                 <div className="col-sm-4">
                     <ul>
                         <li>
-                            <a href="/">Main Page</a>
+                            <a href="/reactportfolio">Main Page</a>
                         </li>
                         <li>
                             <a href="#skills">Skills</a>
@@ -26,16 +26,16 @@ const SiteMap = (props) => (
                 <div className="col-sm-4">
                     <ul>
                         <li>
-                            <a href="/lights">Find Your Lights</a>
+                            <a href="/reactportfolio/#/lights">Find Your Lights</a>
                         </li>
                         <li>
-                            <a href="/letseat">Let's Eat</a>
+                            <a href="/reactportfolio/#/letseat">Let's Eat</a>
                         </li>
                         <li>
-                            <a href="/memory">Art History Memory Game</a>
+                            <a href="/reactportfolio/#/memory">Art History Memory Game</a>
                         </li>
                         <li>
-                            <a href="/artgenerator">Modern Art Generator</a>
+                            <a href="/reactportfolio/#/artgenerator">Modern Art Generator</a>
                         </li>
                     </ul>
                 </div>
