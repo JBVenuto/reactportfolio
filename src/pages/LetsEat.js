@@ -21,9 +21,9 @@ class LetsEat extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/#/lights'
+                    hrefBack='/reactportfolio/#/lights'
                     nameBack='Find Your Lights'
-                    hrefNext='/#/memory'
+                    hrefNext='/reactportfolio/#/memory'
                     nameNext='Art History Memory Game'
                 />
                 <div className="container">
@@ -45,10 +45,10 @@ class LetsEat extends Component {
                         <p>The back-end for this application is written with Node.js and uses Express.js to create an API. The MySQL database is hosted on Heroku using the JawsDB plugin. The front-end is built with React.js</p>
                     </div>
                 </div>
-                <a href="/#/lights">
+                <a href="/reactportfolio/#/lights">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/#/memory">
+                <a href="/reactportfolio/#/memory">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />

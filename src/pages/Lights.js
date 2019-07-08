@@ -21,9 +21,9 @@ class Lights extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/#/artgenerator'
+                    hrefBack='/reactportfolio/#/artgenerator'
                     nameBack='Modern Art Generator'
-                    hrefNext='/#/letseat'
+                    hrefNext='/reactportfolio/#/letseat'
                     nameNext='Lets Eat'
                 />
                 <div className="container">
@@ -47,10 +47,10 @@ class Lights extends Component {
                         <p>I used Vanilla JavaScript to build this application to reinforce my JavaScript skills. Before this app, I had primarily been using React or jQuery and I didn’t want to become overly dependent on JavaScript libraries.</p>
                     </div>
                 </div>
-                <a href="/#/artgenerator">
+                <a href="/reactportfolio/#/artgenerator">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/#/letseat">
+                <a href="/reactportfolio/#/letseat">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />
