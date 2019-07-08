@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.2a119b42.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.74d3abcd.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.74d3abcd.chunk.js.map",
+    "runtime~main.js": "/reactportfolio/static/js/runtime~main.d7794af4.js",
+    "runtime~main.js.map": "/reactportfolio/static/js/runtime~main.d7794af4.js.map",
+    "static/js/2.2688e769.chunk.js": "/reactportfolio/static/js/2.2688e769.chunk.js",
+    "static/js/2.2688e769.chunk.js.map": "/reactportfolio/static/js/2.2688e769.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "precache-manifest.e312acf8024da4abe6ebcc56a69bed6c.js": "/reactportfolio/precache-manifest.e312acf8024da4abe6ebcc56a69bed6c.js",
+    "service-worker.js": "/reactportfolio/service-worker.js",
+    "static/css/main.2a119b42.chunk.css.map": "/reactportfolio/static/css/main.2a119b42.chunk.css.map",
+    "static/media/artgendesk.gif": "/reactportfolio/static/media/artgendesk.6ff14c31.gif",
+    "static/media/arthistory.jpg": "/reactportfolio/static/media/arthistory.ed7e17a8.jpg",
+    "static/media/headshotpresq.jpg": "/reactportfolio/static/media/headshotpresq.2476f690.jpg",
+    "static/media/lightsdesk.gif": "/reactportfolio/static/media/lightsdesk.de615b30.gif",
+    "static/media/memorydesk.gif": "/reactportfolio/static/media/memorydesk.edb270b5.gif",
+    "static/media/modernart.jpg": "/reactportfolio/static/media/modernart.dfdf22e0.jpg",
+    "static/media/northernlights.jpg": "/reactportfolio/static/media/northernlights.58a30baa.jpg",
+    "static/media/restaurantdesk.gif": "/reactportfolio/static/media/restaurantdesk.4eac0b46.gif",
+    "static/media/restaurants.jpg": "/reactportfolio/static/media/restaurants.fb840a9d.jpg",
+    "static/media/v1.jpg": "/reactportfolio/static/media/v1.04746ed7.jpg"
+  }
+}
