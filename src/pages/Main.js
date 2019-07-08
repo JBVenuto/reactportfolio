@@ -55,7 +55,7 @@ class App extends Component {
           {/* ------Portfolio section------ */}
           <span id="portfolio"></span>
           <div className="portfolio" >
-            <a href="/#/lights" className="port-row">
+            <a href="/reactportfolio/#/lights" className="port-row">
               <PortfoScreen
                   src={northernlights}
                   alt="Screenshot of Find Your Lights"
@@ -65,7 +65,7 @@ class App extends Component {
                   description="Application for the user to find when the Northern Lights will be visible"
               />
             </a>
-            <a href="/#/letseat" className="port-row">
+            <a href="/reactportfolio/#/letseat" className="port-row">
               <PortfoDesc 
                   className="portDesc2"
                   title="Let's Eat"
@@ -77,7 +77,7 @@ class App extends Component {
                   alt="Screenshot of Lets Eat"
               />
             </a>
-            <a href="/#/memory" className="port-row">
+            <a href="/reactportfolio/#/memory" className="port-row">
               <PortfoScreen
                   className="portScreen1"
                   src={arthistory}
@@ -89,7 +89,7 @@ class App extends Component {
                   description="Memory game using pieces of art from various time frames"
               />
             </a>
-            <a href="/#/artgenerator" className="port-row">
+            <a href="/reactportfolio/#/artgenerator" className="port-row">
               <PortfoDesc 
                   className="portDesc2"
                   title="Modern Art Generator"
