@@ -38,7 +38,7 @@ class LetsEat extends Component {
                     />
                     <div className="slide-description">
                         <h2>About:</h2>
-                        <p>I’m always hearing about new restaurants to check out and I really do want to try them, but I keep finding myself going to the same few places repeatedly. To break out of this habit I decided to build an application to keep track of all these restaurants and to let me rate them on a binary scale of would I go back or not.</p>
+                        <p>I’m always hearing about new restaurants to check out, but I keep finding myself going to the same few places repeatedly. To break out of this habit I decided to build an application to keep track of all these restaurants and to let me make a note of whether or not I would visit again.</p>
                         <h2>Development:</h2>
                         <p>The biggest issue I ran into while developing this application was deploying a react application and a Node.js backend with a MySQL database that were coupled in one project. After reading about different ways to solve this issue such as using the concurrently package, I decided to separate the back-end and front-end into two separate projects that could be deployed on their own.</p>
                         <h2>Tech Used:</h2>
