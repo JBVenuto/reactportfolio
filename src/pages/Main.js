@@ -55,7 +55,7 @@ class App extends Component {
           {/* ------Portfolio section------ */}
           <span id="portfolio"></span>
           <div className="portfolio" >
-            <a href="/reactportfolio/#/lights" className="port-row">
+            <a href="/lights" className="port-row">
               <PortfoScreen
                   src={northernlights}
                   alt="Screenshot of Find Your Lights"
@@ -65,7 +65,7 @@ class App extends Component {
                   description="Application for the user to find when the Northern Lights will be visible"
               />
             </a>
-            <a href="/reactportfolio/#/letseat" className="port-row">
+            <a href="/letseat" className="port-row">
               <PortfoDesc 
                   className="portDesc2"
                   title="Let's Eat"
