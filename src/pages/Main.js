@@ -43,10 +43,10 @@ class App extends Component {
             <Skill skill="Sass" />
             <Skill skill="BootStrap" />
             <Skill skill="JavaScrip" />
+            <Skill skill="React" />
             <Skill skill="jQuery" />
             <Skill skill="Node.js" /> 
-            <Skill skill="Express" />
-            <Skill skill="React" /> 
+            <Skill skill="Express" /> 
             <Skill skill="MySQL" />
             <Skill skill="MongoDB" />
             <Skill skill="GIT" id="last-skill" />
@@ -77,7 +77,7 @@ class App extends Component {
                   alt="Screenshot of Lets Eat"
               />
             </a>
-            <a href="/reactportfolio/#/memory" className="port-row">
+            <a href="/memory" className="port-row">
               <PortfoScreen
                   className="portScreen1"
                   src={arthistory}
@@ -89,7 +89,7 @@ class App extends Component {
                   description="Memory game using pieces of art from various time frames"
               />
             </a>
-            <a href="/reactportfolio/#/artgenerator" className="port-row">
+            <a href="/artgenerator" className="port-row">
               <PortfoDesc 
                   className="portDesc2"
                   title="Modern Art Generator"

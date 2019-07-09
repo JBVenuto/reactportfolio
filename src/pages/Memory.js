@@ -21,9 +21,9 @@ class Memory extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/reactportfolio/#/letseat'
+                    hrefBack='/letseat'
                     nameBack='Lets Eat'
-                    hrefNext='/reactportfolio/#/artgenerator'
+                    hrefNext='/artgenerator'
                     nameNext='Modern Art Generator'
                 />
                 <div className="container">
@@ -45,10 +45,10 @@ class Memory extends Component {
                         <p>Because this game was built as a learning experience it focuses on the React library which uses JavaScript, JSX, and HTML. I also used Bootstrap and CSS for stylizing. The pictures come from the Met’s collection of open access artworks.</p>
                     </div>
                 </div>
-                <a href="/reactportfolio/#/letseat">
+                <a href="/letseat">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/reactportfolio/#/artgenerator">
+                <a href="/artgenerator">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />
