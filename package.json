@@ -1,10 +1,12 @@
 {
   "name": "reactportfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.11.1"
+  },
   "private": true,
-  "homepage": "https://jbvenuto.github.io/reactportfolio/",
+  "homepage": "https://jvenutotest.herokuapp.com/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
