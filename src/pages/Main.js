@@ -62,14 +62,14 @@ class App extends Component {
               />
               <PortfoDesc 
                   title="Find Your Lights"
-                  description="Application for the user to find when the Northern Lights will be visible"
+                  description="Application allows user to find when Northern Lights will be visible"
               />
             </a>
             <a href="/letseat" className="port-row">
               <PortfoDesc 
                   className="portDesc2"
                   title="Let's Eat"
-                  description="User generated list to keep track of restaurants to try and the ones worth returning to"
+                  description="User generated list tracks restaurants to try and record the ones worth returning to"
               />
               <PortfoScreen
                   className="portScreen2"
@@ -86,7 +86,7 @@ class App extends Component {
               <PortfoDesc 
                   className="portDesc1"
                   title="Art History Memory Game"
-                  description="Memory game using pieces of art from various time frames"
+                  description="Memory game using works of art from different cultures and eras"
               />
             </a>
             <a href="/artgenerator" className="port-row">
