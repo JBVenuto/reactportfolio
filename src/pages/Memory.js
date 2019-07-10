@@ -40,7 +40,7 @@ class Memory extends Component {
                         <h2>About:</h2>
                         <p>I built this application to get hands on experience using React. It’s a fun little memory game that challenges the user to click on each picture only once. The pictures are rearranged after each click.</p>
                         <h2>Development:</h2>
-                        <p>Building this application taught me the basics of React. I almost immediately began to prefer React over other JavaScript libraries I have used. JSX allowing for easy transitioning between coding HTML and JavaScript is one of my favorite features, along with reusable components.</p>
+                        <p>Building this application taught me the basics of React. JSX allowing for easy transitioning between coding HTML and JavaScript and reusable components are the two features of React that I gravitated towards.</p>
                         <h2>Tech Used:</h2>
                         <p>Because this game was built as a learning experience it focuses on the React library which uses JavaScript, JSX, and HTML. I also used Bootstrap and CSS for stylizing. The pictures come from the Met’s collection of open access artworks.</p>
                     </div>
