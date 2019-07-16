@@ -14,7 +14,7 @@ import northernlights from '../images/mainpage/northernlights.jpg';
 import restaurants from '../images/mainpage/restaurants.jpg';
 import modernart from '../images/mainpage/modernart.jpg';
 import v from '../images/mainpage/v1.jpg';
-import me from '../images/mainpage/headshotpresq.jpg'
+import me from '../images/mainpage/headshotMackinac.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -65,7 +65,19 @@ class App extends Component {
                   description="Application allows user to find when Northern Lights will be visible"
               />
             </a>
-            <a href="/letseat" className="port-row">
+            <a href="/letseat" className="port-row sm-row-even">
+              <PortfoScreen
+                  className="portScreen2"
+                  src={restaurants}
+                  alt="Screenshot of Lets Eat"
+              />
+              <PortfoDesc 
+                  className="portDesc2"
+                  title="Let's Eat"
+                  description="User generated list tracks restaurants to try and record the ones worth returning to"
+              />
+            </a>
+            <a href="/letseat" className="port-row md-row-even">
               <PortfoDesc 
                   className="portDesc2"
                   title="Let's Eat"
@@ -89,7 +101,19 @@ class App extends Component {
                   description="Memory game using works of art from different cultures and eras"
               />
             </a>
-            <a href="/artgenerator" className="port-row">
+            <a href="/artgenerator" className="port-row sm-row-even">
+              <PortfoScreen
+                  className="portScreen2"
+                  src={modernart}
+                  alt="Screenshot of Modern Art Generator"
+              />
+              <PortfoDesc 
+                  className="portDesc2"
+                  title="Modern Art Generator"
+                  description="Each load will create a piece of modern art randomly generated with JavaScript"
+              />
+            </a>
+            <a href="/artgenerator" className="port-row md-row-even">
               <PortfoDesc 
                   className="portDesc2"
                   title="Modern Art Generator"
