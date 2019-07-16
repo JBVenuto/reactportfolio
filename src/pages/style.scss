@@ -117,7 +117,7 @@ font-size: 20px;
     margin-top: 30px;
     margin-bottom: 15px;
     display: grid;
-    grid-template-columns: 49.5% 49.5%;
+    grid-template-columns: 33% 66%;
     grid-column-gap: 1em;
 
     .about-desc {
@@ -186,6 +186,17 @@ font-size: 20px;
         background-color: white;
         padding-top: 20px;
     }
+    .all-about {
+        display: grid;
+        grid-template-columns: 49% 49%;  
+        .about-desc {
+            padding-top: 10px;
+            p{
+                font-size: 14px;
+                padding: 0px 3px 0px 3px;
+            }
+        }
+    }
 }
 
 // small screens
@@ -207,4 +218,16 @@ font-size: 20px;
         background-color: white;
         padding-top: 25px;
     }
+    .all-about {
+        display: grid;
+        grid-template-columns: auto;
+        .headshot {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }  
 }
