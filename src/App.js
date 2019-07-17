@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 //Pages to use with the router
 import Main from './pages/Main';
 import LetsEat from './pages/LetsEat';
@@ -8,7 +8,7 @@ import Lights from './pages/Lights';
 import Memory from './pages/Memory';
 
 const App = () => (
-  <HashRouter>
+  <BrowserRouter>
     <div>
       <Switch>
         <Route exact path="/" component={Main} />
@@ -18,7 +18,7 @@ const App = () => (
         <Route exact path="/artgenerator" component={ArtGenerator} />
       </Switch>
     </div>
-  </HashRouter>
+  </BrowserRouter>
 )
 
 export default App;
