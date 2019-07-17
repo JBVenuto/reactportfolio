@@ -42,14 +42,14 @@ class App extends Component {
             <Skill skill="CSS" />
             <Skill skill="Sass" />
             <Skill skill="BootStrap" />
-            <Skill skill="JavaScrip" />
+            <Skill skill="JavaScript" />
             <Skill skill="React" />
             <Skill skill="jQuery" />
             <Skill skill="Node.js" /> 
             <Skill skill="Express" /> 
             <Skill skill="MySQL" />
             <Skill skill="MongoDB" />
-            <Skill skill="GIT" id="last-skill" />
+            <Skill skill="Git" id="last-skill" />
           </div>
 
           {/* ------Portfolio section------ */}
