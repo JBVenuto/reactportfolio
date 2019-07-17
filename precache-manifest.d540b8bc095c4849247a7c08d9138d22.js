@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60cb2e4b731610de97922200569a91f3",
+    "revision": "b5c0ca800172da895b378fc755ec40f3",
     "url": "/reactportfolio/index.html"
   },
   {
-    "revision": "00b1780e5df609a783d4",
-    "url": "/reactportfolio/static/css/main.2a119b42.chunk.css"
+    "revision": "5eca4463d9b2dcd16865",
+    "url": "/reactportfolio/static/css/main.439bd8de.chunk.css"
   },
   {
-    "revision": "d18f11e7cc45f109bfa7",
-    "url": "/reactportfolio/static/js/2.2b7c36ad.chunk.js"
+    "revision": "f2b8db4c287d6572fab0",
+    "url": "/reactportfolio/static/js/2.3c6f852e.chunk.js"
   },
   {
-    "revision": "00b1780e5df609a783d4",
-    "url": "/reactportfolio/static/js/main.63bd7123.chunk.js"
+    "revision": "5eca4463d9b2dcd16865",
+    "url": "/reactportfolio/static/js/main.7a95b8a8.chunk.js"
   },
   {
     "revision": "8007ccf6b0ab45eb369a",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactportfolio/static/media/arthistory.ed7e17a8.jpg"
   },
   {
-    "revision": "2476f69094365b582a89f09b7e0d1f03",
-    "url": "/reactportfolio/static/media/headshotpresq.2476f690.jpg"
+    "revision": "42e296a40129dc3a285ceb6a3645064c",
+    "url": "/reactportfolio/static/media/headshotMackinac.42e296a4.jpg"
   },
   {
     "revision": "de615b30039aced29f92892db342da38",
