@@ -8,7 +8,7 @@ import Lights from './pages/Lights';
 import Memory from './pages/Memory';
 
 const App = () => (
-  // <BrowserRouter>
+  <BrowserRouter>
     <div>
       <Switch>
         <Route exact path="/" component={Main} />
@@ -18,7 +18,7 @@ const App = () => (
         <Route exact path="/artgenerator" component={ArtGenerator} />
       </Switch>
     </div>
-  // </BrowserRouter>
+  </BrowserRouter>
 )
 
 export default App;
