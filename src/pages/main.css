@@ -160,6 +160,7 @@ body {
   .port-row {
     display: grid;
     grid-template-columns: auto;
+    margin-top: 5px;
   }
 
   .sm-row-even {
@@ -170,11 +171,15 @@ body {
     display: none;
   }
 
+  .port-screen {
+    margin-top: 10px;
+  }
+
   .port-desc {
     width: 100%;
     height: 100px;
-    margin-top: 15px;
     color: #FFA500;
+    border-top: 1px solid #FFA500;
     text-align: center;
     background-color: white;
     padding-top: 20px;

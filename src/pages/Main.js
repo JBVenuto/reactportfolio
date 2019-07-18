@@ -55,6 +55,7 @@ class App extends Component {
           {/* ------Portfolio section------ */}
           <span id="portfolio"></span>
           <div className="portfolio" >
+            {/* ------Find Your Lights------ */}
             <a href="/lights" className="port-row">
               <PortfoScreen
                   src={northernlights}
@@ -65,6 +66,7 @@ class App extends Component {
                   description="Application allows user to find when Northern Lights will be visible"
               />
             </a>
+            {/* ------Lets Eat------ */}
             <a href="/letseat" className="port-row sm-row-even">
               <PortfoScreen
                   className="portScreen2"
@@ -89,6 +91,7 @@ class App extends Component {
                   alt="Screenshot of Lets Eat"
               />
             </a>
+            {/* ------Memory------ */}
             <a href="/memory" className="port-row">
               <PortfoScreen
                   className="portScreen1"
@@ -101,6 +104,7 @@ class App extends Component {
                   description="Memory game using works of art from different cultures and eras"
               />
             </a>
+            {/* ------Art Generator------ */}
             <a href="/artgenerator" className="port-row sm-row-even">
               <PortfoScreen
                   className="portScreen2"
