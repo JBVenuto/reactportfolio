@@ -12,13 +12,13 @@ const SiteMap = (props) => (
                             <a href="/">Main Page</a>
                         </li>
                         <li>
-                            <a href="#skills">Skills</a>
+                            <a href="/#skills">Skills</a>
                         </li>
                         <li>
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="/#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="/#about">About</a>
                         </li>
                     </ul>
                 </div>
