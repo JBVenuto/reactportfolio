@@ -176,16 +176,17 @@ font-size: 20px;
         display: none;
     }
     .port-screen {
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .port-desc {
         width: 100%;
-        height: 100px;
+        // height: 100px;
         color: $orange;
-        border-top: 1px solid $orange;
+        border-top: 2px solid $orange;
         text-align: center;
         background-color: white;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     .all-about {
         display: grid;
@@ -213,11 +214,11 @@ font-size: 20px;
         display: none;
     }
     .port-desc {
-        // margin-top: 15px;
         color: $orange;
         text-align: center;
         background-color: white;
-        padding-top: 25px;
+        // padding-top: 25px;
+        // padding-bottom: 25px;
     }
     .all-about {
         display: grid;
