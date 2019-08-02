@@ -44,9 +44,10 @@ class App extends Component {
             <Skill skill="BootStrap" />
             <Skill skill="JavaScript" />
             <Skill skill="React" />
-            <Skill skill="jQuery" />
+            {/* <Skill skill="jQuery" /> */}
             <Skill skill="Node.js" /> 
             <Skill skill="Express" /> 
+            <Skill skill="REST API" />
             <Skill skill="MySQL" />
             <Skill skill="MongoDB" />
             <Skill skill="Git" id="last-skill" />
