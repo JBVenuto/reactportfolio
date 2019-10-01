@@ -19,7 +19,7 @@ const Nav = () => (
             </a>
         </li>
         <li className="nav-item">
-            <a href="https://www.linkedin.com/in/joseph-venuto-0714a5162/" rel="noopener noreferrer" target="_blank">
+            <a href="https://www.linkedin.com/in/joseph-venuto" rel="noopener noreferrer" target="_blank">
                 <FaLinkedin className="nav-icon" />
             </a>
         </li>

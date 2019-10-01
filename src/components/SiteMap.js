@@ -41,7 +41,7 @@ const SiteMap = (props) => (
                 </div>
                 {/* Links to linkedIn and GitHub */}
                 <div className="col-sm-4 end-icons">
-                    <a href="https://www.linkedin.com/in/joseph-venuto-0714a5162/" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.linkedin.com/in/joseph-venuto" rel="noopener noreferrer" target="_blank">
                         <FaLinkedin className="foot-icon" />
                     </a>
                     <a href="https://github.com/JBVenuto" rel="noopener noreferrer" target="_blank">
