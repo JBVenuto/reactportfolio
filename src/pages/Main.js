@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './main.css';
+import { Link } from 'react-router-dom';
 // Imported components
 import About from '../components/About';
 import Header from '../components/Header';
@@ -57,7 +58,7 @@ class App extends Component {
           <span id="portfolio"></span>
           <div className="portfolio" >
             {/* ------Find Your Lights------ */}
-            <a href="/lights" className="port-row">
+            <Link to="/lights" className="port-row">
               <PortfoScreen
                   src={northernlights}
                   alt="Screenshot of Find Your Lights"
@@ -66,9 +67,9 @@ class App extends Component {
                   title="Find Your Lights"
                   description="Application allows user to find when Northern Lights will be visible"
               />
-            </a>
+            </Link>
             {/* ------Lets Eat------ */}
-            <a href="/letseat" className="port-row sm-row-even">
+            <Link to="/letseat" className="port-row sm-row-even">
               <PortfoScreen
                   className="portScreen2"
                   src={restaurants}
@@ -79,8 +80,8 @@ class App extends Component {
                   title="Let's Eat"
                   description="User generated list tracks restaurants to try and record the ones worth returning to"
               />
-            </a>
-            <a href="/letseat" className="port-row md-row-even">
+            </Link>
+            <Link to="/letseat" className="port-row md-row-even">
               <PortfoDesc 
                   className="portDesc2"
                   title="Let's Eat"
@@ -91,9 +92,9 @@ class App extends Component {
                   src={restaurants}
                   alt="Screenshot of Lets Eat"
               />
-            </a>
+            </Link>
             {/* ------Memory------ */}
-            <a href="/memory" className="port-row">
+            <Link to="/memory" className="port-row">
               <PortfoScreen
                   className="portScreen1"
                   src={arthistory}
@@ -104,9 +105,9 @@ class App extends Component {
                   title="Art History Memory Game"
                   description="Memory game using works of art from different cultures and eras"
               />
-            </a>
+            </Link>
             {/* ------Art Generator------ */}
-            <a href="/artgenerator" className="port-row sm-row-even">
+            <Link to="/artgenerator" className="port-row sm-row-even">
               <PortfoScreen
                   className="portScreen2"
                   src={modernart}
@@ -117,8 +118,8 @@ class App extends Component {
                   title="Modern Art Generator"
                   description="Each load will create a piece of modern art randomly generated with JavaScript"
               />
-            </a>
-            <a href="/artgenerator" className="port-row md-row-even">
+            </Link>
+            <Link to="/artgenerator" className="port-row md-row-even">
               <PortfoDesc 
                   className="portDesc2"
                   title="Modern Art Generator"
@@ -129,7 +130,7 @@ class App extends Component {
                   src={modernart}
                   alt="Screenshot of Modern Art Generator"
               />
-            </a>
+            </Link>
           </div>
 
           {/* ------About me section------ */}

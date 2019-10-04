@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const SiteMap = (props) => (
     <div className="site-map">
@@ -9,7 +10,7 @@ const SiteMap = (props) => (
                 <div className="col-sm-4">
                     <ul>
                         <li>
-                            <a href="/">Main Page</a>
+                            <Link to="/">Main Page</Link>
                         </li>
                         <li>
                             <a href="/#skills">Skills</a>
@@ -26,16 +27,16 @@ const SiteMap = (props) => (
                 <div className="col-sm-4">
                     <ul>
                         <li>
-                            <a href="/lights">Find Your Lights</a>
+                            <Link to="/lights">Find Your Lights</Link>
                         </li>
                         <li>
-                            <a href="/letseat">Let's Eat</a>
+                            <Link to="/letseat">Let's Eat</Link>
                         </li>
                         <li>
-                            <a href="/memory">Art History Memory Game</a>
+                            <Link to="/memory">Art History Memory Game</Link>
                         </li>
                         <li>
-                            <a href="/artgenerator">Modern Art Generator</a>
+                            <Link to="/artgenerator">Modern Art Generator</Link>
                         </li>
                     </ul>
                 </div>
