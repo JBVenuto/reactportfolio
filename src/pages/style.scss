@@ -43,13 +43,26 @@ font-size: 20px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
 
-    .name-title {
+    .name__wrap {
       padding-top: 25px;  
+      width: 50%;
+
+        .name-title {
+            width: 60%;
+            margin: auto;
+        }
     }
-    .logo-img {
-        width: 25%;
-        height: auto;
+
+    .logo {
+        width: 50%;
+
+        img {
+            width: 25%;
+            height: auto;
+        }
     }
 }
 

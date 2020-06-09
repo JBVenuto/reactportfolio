@@ -30,11 +30,21 @@ body {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
 }
-.header .name-title {
+.header .name__wrap {
   padding-top: 25px;
+  width: 50%;
 }
-.header .logo-img {
+.header .name__wrap .name-title {
+  width: 60%;
+  margin: auto;
+}
+.header .logo {
+  width: 50%;
+}
+.header .logo img {
   width: 25%;
   height: auto;
 }
