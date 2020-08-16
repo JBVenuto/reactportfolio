@@ -7,11 +7,11 @@
   "private": true,
   "homepage": "http://josephvenuto.s3-website.us-east-2.amazonaws.com/",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-icons": "^3.7.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
