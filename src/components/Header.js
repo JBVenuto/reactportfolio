@@ -3,15 +3,15 @@ import React from 'react';
 const Header = (props) => (
     <div className="header">
         <div className="name__wrap">
-            <div className="name-title">
+            <div className="header__name">
                 <h1>Joseph Venuto</h1><hr></hr>
                 <h2>Web Developer</h2>
             </div>
         </div>
 
-        <div className="logo">
+        <div className="header__logo">
             <img
-                className="logo-img"
+                className="logo__img"
                 src={props.src}
                 alt="V Logo"
             ></img>
