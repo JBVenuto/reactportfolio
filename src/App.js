@@ -5,7 +5,7 @@ import Main from './pages/Main';
 import LetsEat from './pages/LetsEat';
 import ArtGenerator from './pages/ArtGenerator';
 import Lights from './pages/Lights';
-import Memory from './pages/Memory';
+import PublessTrivia from './pages/PublessTrivia';
 
 const App = () => (
   <BrowserRouter>
@@ -14,7 +14,7 @@ const App = () => (
         <Route exact path="/" component={Main} />
         <Route exact path="/letseat" component={LetsEat} />
         <Route exact path="/lights" component={Lights} />
-        <Route exact path="/memory" component={Memory} />
+        <Route exact path="/publesstrivia" component={PublessTrivia} />
         <Route exact path="/artgenerator" component={ArtGenerator} />
       </Switch>
     </div>

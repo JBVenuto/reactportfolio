@@ -9,7 +9,7 @@ import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/memorydesk.gif';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-class Memory extends Component {
+class PublessTrivia extends Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -21,20 +21,20 @@ class Memory extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/letseat'
-                    nameBack='Lets Eat'
-                    hrefNext='/artgenerator'
-                    nameNext='Modern Art Generator'
+                    hrefBack='/artgenerator'
+                    nameBack='Modern Art Generator'
+                    hrefNext='/lights'
+                    nameNext='Find Your Lights'
                 />
                 <div className="container">
-                    <SlideName name='Art History Memory Game' />
+                    <SlideName name='Publess Trivia' />
                     <SlideScreenshot 
                         src={screenshot}
-                        alt='Art History Memory Game'
+                        alt='Publess Trivia'
                     />
                     <SlideLinks
-                        liveHref='https://jbvenuto.github.io/arthistorygame/'
-                        gitHubHref='https://github.com/JBVenuto/arthistorygame'
+                        liveHref='https://publess-trivia.vercel.app/'
+                        gitHubHref='https://github.com/JBVenuto/publess-trivia'
                     />
                     <div className="slide-description">
                         <h2>About:</h2>
@@ -45,10 +45,10 @@ class Memory extends Component {
                         <p>Because this game was built as a learning experience it focuses on the React library which uses JavaScript, JSX, and HTML. I also used Bootstrap and CSS for stylizing. The pictures come from the Met’s collection of open access artworks.</p>
                     </div>
                 </div>
-                <a href="/letseat">
+                <a href="/artgenerator">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/artgenerator">
+                <a href="/lights">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />
@@ -57,4 +57,4 @@ class Memory extends Component {
     }
 }
 
-export default Memory;
+export default PublessTrivia;

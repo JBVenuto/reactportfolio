@@ -23,8 +23,8 @@ class LetsEat extends Component {
                 <NavSlide 
                     hrefBack='/lights'
                     nameBack='Find Your Lights'
-                    hrefNext='/memory'
-                    nameNext='Art History Memory Game'
+                    hrefNext='/artgenerator'
+                    nameNext='Modern Art Generator'
                 />
                 <div className="container">
                     <SlideName name='Lets Eat' />
@@ -48,7 +48,7 @@ class LetsEat extends Component {
                 <a href="/lights">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/memory">
+                <a href="/artgenerator">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />
