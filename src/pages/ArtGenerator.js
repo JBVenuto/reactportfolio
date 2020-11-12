@@ -21,10 +21,10 @@ class ArtGenerator extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/memory'
-                    nameBack='Art History Memory Game'
-                    hrefNext='/lights'
-                    nameNext='Find Your Lights'
+                    hrefBack='/letseat'
+                    nameBack="Let's Eat"
+                    hrefNext='/publesstrivia'
+                    nameNext='Publess Trivia'
                 />
                 <div className="container">
                     <SlideName name='Modern Art Generator' />
@@ -46,10 +46,10 @@ class ArtGenerator extends Component {
                         <p>This application uses CSS Grid and Vanilla JavaScript</p>
                     </div>
                 </div>
-                <a href="/memory">
+                <a href="/letseat">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/lights">
+                <a href="/publesstrivia">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />
