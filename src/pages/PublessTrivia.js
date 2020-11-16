@@ -38,11 +38,11 @@ class PublessTrivia extends Component {
                     />
                     <div className="slide-description">
                         <h2>About:</h2>
-                        <p>I built this application to get hands on experience using React. It’s a fun little memory game that challenges the user to click on each picture only once. The pictures are rearranged after each click.</p>
+                        <p>During the coronavirus lockdown I found myself missing playing pub trivia. While many of the aspects of pub trivia can’t be recreated in a virtual trivia game, I still wanted to make a game that could be played with friends and family over video chat to try and bring people together.</p>
                         <h2>Development:</h2>
-                        <p>Building this application taught me the basics of React. JSX allowing for easy transitioning between coding HTML and JavaScript and reusable components are the two features of React that I gravitated towards.</p>
+                        <p>One of my goals while developing this was to refresh my Redux skills and to gain experience using Redux with Next.js. Even though the initial version of this application only had a small amount of state to manage I chose Redux because I knew I would be expanding it to include a scoring system.</p>
                         <h2>Tech Used:</h2>
-                        <p>Because this game was built as a learning experience it focuses on the React library which uses JavaScript, JSX, and HTML. I also used Bootstrap and CSS for stylizing. The pictures come from the Met’s collection of open access artworks.</p>
+                        <p>As previously mentions this application uses Redux and Next.js. To reduce the amount of styling I had to do I used Materialize, a front-end framework. The styling that I did write is written using Sass.</p>
                     </div>
                 </div>
                 <a href="/artgenerator">
