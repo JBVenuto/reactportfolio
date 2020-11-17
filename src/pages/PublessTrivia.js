@@ -36,7 +36,7 @@ class PublessTrivia extends Component {
                         liveHref='https://publess-trivia.vercel.app/'
                         gitHubHref='https://github.com/JBVenuto/publess-trivia'
                     />
-                    <div className="slide-description">
+                    <div className="slide-description shadow">
                         <h2>About:</h2>
                         <p>During the coronavirus lockdown I found myself missing playing pub trivia. While many of the aspects of pub trivia can’t be recreated in a virtual trivia game, I still wanted to make a game that could be played with friends and family over video chat to try and bring people together.</p>
                         <h2>Development:</h2>
