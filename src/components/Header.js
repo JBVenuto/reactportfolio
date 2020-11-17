@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = (props) => (
-    <div className="header">
+    <div className="header shadow">
         <div className="name__wrap">
             <div className="header__name">
                 <h1>Joseph Venuto</h1><hr></hr>
