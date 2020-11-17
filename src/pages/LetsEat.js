@@ -36,7 +36,7 @@ class LetsEat extends Component {
                         liveHref='https://jbvenuto.github.io/restaurantfrontend/'
                         gitHubHref='https://github.com/JBVenuto/restaurants'
                     />
-                    <div className="slide-description">
+                    <div className="slide-description shadow">
                         <h2>About:</h2>
                         <p>I’m always hearing about new restaurants to check out, but I keep finding myself going to the same few places. To break out of this habit I decided to build an application to track of all these restaurants and to let me make a note of whether or not I would visit again.</p>
                         <h2>Development:</h2>

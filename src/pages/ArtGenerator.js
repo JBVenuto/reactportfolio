@@ -36,7 +36,7 @@ class ArtGenerator extends Component {
                         liveHref='https://jbvenuto.github.io/modernart/'
                         gitHubHref='https://github.com/JBVenuto/modernart'
                     />
-                    <div className="slide-description">
+                    <div className="slide-description shadow">
                         <h2>About:</h2>
                         <p>I’ve been an art lover all my life and visiting the Los Angeles County Museum of Art I was inspired to try making art myself. Unfortuately, I have no painting and drawing skills and I knew I would have to take a different approach.</p>
                         <p>I took inspiration from the works of Ellsworth Kelly, Piet Mondrian, Wassily Kandinsky, and Mark Rothko. I found their ability to create beautify works of art using simple shapes and carefully selected colors to be a good starting point for my attempt at creating a web application to make art.</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PortfoScreen = (props) => (
-    <div className="port-screen">
+    <div className="port-screen shadow">
         <img
             className="screenshot"
             src={props.src}
