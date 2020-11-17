@@ -3,6 +3,9 @@
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.nav-slide .slide-link {
+  text-align: center;
+}
 .nav-slide a {
   color: white;
   font-weight: bold;

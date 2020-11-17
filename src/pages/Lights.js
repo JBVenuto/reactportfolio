@@ -36,7 +36,7 @@ class Lights extends Component {
                         liveHref='https://northernlights-v2.vercel.app/'
                         gitHubHref='https://github.com/JBVenuto/northernlightsV2'
                     />
-                    <div className="slide-description">
+                    <div className="slide-description shadow">
                         <h2>About:</h2>
                         <p>After moving to Michigan’s Upper Peninsula, I knew that I had to see the Northern Lights, but I was having trouble finding an aurora forecast application that I liked. So I decided to build my own.</p>
                         <p>I wanted an application that would show the user what the predicted Kp score will be in a simple to read bar graph.</p>

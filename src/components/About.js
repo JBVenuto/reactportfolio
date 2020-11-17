@@ -7,11 +7,11 @@ const About = (props) => (
             <img
                 src={props.src}
                 alt="Joseph Venuto"
-                className="headshot"
+                className="headshot shadow"
             ></img>
         </div>
         {/* About Me Section */}
-        <div className="about-desc">
+        <div className="about-desc shadow">
             <h3>About Me:</h3><hr></hr>
             <p>
                 I’m a web developer with a background in education. My time in education gave me leadership skills, a professional understanding of the learning process and the skills to adapt this knowledge for efficient self-learning, time management, and organization.
