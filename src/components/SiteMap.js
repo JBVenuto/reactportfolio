@@ -27,13 +27,13 @@ const SiteMap = (props) => (
                 <div className="col-sm-4">
                     <ul>
                         <li>
+                            <Link to="/publesstrivia">Publess Trivia</Link>
+                        </li>
+                        <li>
                             <Link to="/lights">Find Your Lights</Link>
                         </li>
                         <li>
                             <Link to="/letseat">Let's Eat</Link>
-                        </li>
-                        <li>
-                            <Link to="/memory">Art History Memory Game</Link>
                         </li>
                         <li>
                             <Link to="/artgenerator">Modern Art Generator</Link>

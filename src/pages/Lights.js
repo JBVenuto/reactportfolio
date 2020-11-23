@@ -21,8 +21,8 @@ class Lights extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/artgenerator'
-                    nameBack='Modern Art Generator'
+                    hrefBack='/publesstrivia'
+                    nameBack='Publess Trivia'
                     hrefNext='/letseat'
                     nameNext='Lets Eat'
                 />
@@ -47,7 +47,7 @@ class Lights extends Component {
                         <p>I used React and Next.js to build this application. It is deployed to Vercel.</p>
                     </div>
                 </div>
-                <a href="/artgenerator">
+                <a href="/publesstrivia">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
                 <a href="/letseat">

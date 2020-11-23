@@ -10,7 +10,7 @@ import PortfoScreen from '../components/PortfoScreen';
 import SiteMap from '../components/SiteMap';
 import Skill from '../components/Skill';
 // Imported images
-import arthistory from '../images/mainpage/arthistory.jpg';
+import publesstrivia from '../images/mainpage/publesstrivia.jpg'
 import northernlights from '../images/mainpage/northernlights.jpg';
 import restaurants from '../images/mainpage/restaurants.jpg';
 import modernart from '../images/mainpage/modernart.jpg';
@@ -57,6 +57,19 @@ class App extends Component {
           {/* ------Portfolio section------ */}
           <span id="portfolio"></span>
           <div className="portfolio" >
+            {/* ------Publess Trivia------ */}
+            <Link to="/publesstrivia" className="port-row">
+              <PortfoScreen
+                  className="portScreen1"
+                  src={publesstrivia}
+                  alt="Screenshot of publess trivia"
+              />
+              <PortfoDesc 
+                  className="portDesc1"
+                  title="Publess Trivia"
+                  description="Social distanced trivia game to play with friends over video chat"
+              />
+            </Link>
             {/* ------Find Your Lights------ */}
             <Link to="/lights" className="port-row">
               <PortfoScreen
@@ -91,19 +104,6 @@ class App extends Component {
                   className="portScreen2"
                   src={restaurants}
                   alt="Screenshot of Lets Eat"
-              />
-            </Link>
-            {/* ------Memory------ */}
-            <Link to="/memory" className="port-row">
-              <PortfoScreen
-                  className="portScreen1"
-                  src={arthistory}
-                  alt="Screenshot of art memory game"
-              />
-              <PortfoDesc 
-                  className="portDesc1"
-                  title="Art History Memory Game"
-                  description="Memory game using works of art from different cultures and eras"
               />
             </Link>
             {/* ------Art Generator------ */}
