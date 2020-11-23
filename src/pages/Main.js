@@ -10,7 +10,7 @@ import PortfoScreen from '../components/PortfoScreen';
 import SiteMap from '../components/SiteMap';
 import Skill from '../components/Skill';
 // Imported images
-import arthistory from '../images/mainpage/arthistory.jpg';
+import publesstrivia from '../images/mainpage/publesstrivia.jpg'
 import northernlights from '../images/mainpage/northernlights.jpg';
 import restaurants from '../images/mainpage/restaurants.jpg';
 import modernart from '../images/mainpage/modernart.jpg';
@@ -61,7 +61,7 @@ class App extends Component {
             <Link to="/publesstrivia" className="port-row">
               <PortfoScreen
                   className="portScreen1"
-                  src={arthistory}
+                  src={publesstrivia}
                   alt="Screenshot of publess trivia"
               />
               <PortfoDesc 

@@ -6,7 +6,7 @@ import SlideName from '../components/SlideName';
 import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
-import screenshot from '../images/gifs/memorydesk.gif';
+import screenshot from '../images/gifs/publess-trivia.gif';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class PublessTrivia extends Component {
