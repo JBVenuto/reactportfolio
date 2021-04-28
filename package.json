@@ -5,7 +5,7 @@
     "node": "8.11.1"
   },
   "private": true,
-  "homepage": "http://josephvenuto.s3-website.us-east-2.amazonaws.com/",
+  "homepage": "https://josephvenuto.herokuapp.com/",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
